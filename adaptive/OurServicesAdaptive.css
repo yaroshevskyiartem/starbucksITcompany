@@ -1,0 +1,20 @@
+@media (max-width:1200px){
+.ServicesContainer{
+    width:fit-content;
+    height:fit-content;
+    display: grid;
+    grid-template-columns: repeat(2, 400px);
+    grid-template-rows: repeat(3, 200px);
+    gap:20px;
+}
+}
+@media (max-width:870px){
+.ServicesContainer{
+    width:fit-content;
+    height:fit-content;
+    display: grid;
+    grid-template-columns: repeat(1, 400px);
+    grid-template-rows: repeat(6, 200px);
+    gap:20px;
+}
+}
