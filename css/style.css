@@ -11,17 +11,29 @@ header li:hover{
  
 
 .headerContent{
-    justify-content: center;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+    display: grid;
+    grid-template-columns: 0;
+    grid-template-rows: 0;
     height: 30rem;
-    padding-top:100px;
+    padding-top:63px;
     font-size: 2rem;
     font-family: sans-serif;
     color: white;
+    z-index: -1;
 }
-
+.headerContent img{
+    width:100vw;
+    height:91vh;
+    z-index: -2;
+}
+.headerContent_button{
+    display: flex;
+    flex-direction: column;
+    width:100vw;
+    height:91vh;
+    justify-content: center;
+    align-items: center;
+}
 .divButton{
     display: flex;
     flex-direction: column;
@@ -46,7 +58,6 @@ header li:hover{
     
 }
 header{
-    background-image: url("/imgs/photo-1542744173-8e7e53415bb0.jpg");
     height: 100vh;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
