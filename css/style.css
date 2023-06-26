@@ -92,7 +92,7 @@ header{
 .indexgrid_item a{
     display: flex;
     text-align: center;
-    width:320px;
+    width:220px;
     height:220px;
     z-index: 100;
     align-items: center;
