@@ -5,10 +5,10 @@
     height:fit-content;
 }
 .latestNews_item{
-    background-image: url('imgs/newspage.jpg');
+    background-image: url('/imgs/newspage.jpg');
 }
 .notLatestNews_item{
-    background-image: url('imgs/notlatestnews.jpg');
+    background-image: url('/imgs/notlatestnews.jpg');
 }
 .latestNews_item, .notLatestNews_item{
     border:1px solid black;
