@@ -46,7 +46,7 @@ header li:hover{
     
 }
 header{
-    background-image: url("imgs/photo-1542744173-8e7e53415bb0.jpg");
+    background-image: url("/imgs/photo-1542744173-8e7e53415bb0.jpg");
     height: 100vh;
     background-size: cover;
     box-shadow: inset 0 0 0 1000px rgba(0, 0, 0, 0.5);
@@ -74,19 +74,19 @@ header{
 
 }
 #gr1{
-    background-image: url("imgs/itproj.jpg");
+    background-image: url("/imgs/itproj.jpg");
     background-position: center;
 }
 #gr2{
-    background-image: url("imgs/services.jpg");
+    background-image: url("/imgs/services.jpg");
     background-position: center;
 }
 #gr3{
-    background-image: url("imgs/news.jpg");
+    background-image: url("/imgs/news.jpg");
     background-position: center;
 }
 #gr4{
-    background-image: url("imgs/contacts.jpg");
+    background-image: url("/imgs/contacts.jpg");
     background-position: center;
 }
 .indexgrid_item a{
